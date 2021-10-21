@@ -1,0 +1,8 @@
+{
+  "code": 0,
+  "data": [
+    { "id": 1, "title": "iphone13", "price": 7999.9,"url":"/static/images/iphone.jpeg" },
+    { "id": 2, "title": "mate40", "price": 4999.9,"url":"/static/images/mate.jpeg" },
+    { "id": 3, "title": "findx3", "price": 3999.9 ,"url":"/static/images/find.jpeg"}
+  ]
+}
