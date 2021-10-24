@@ -1,5 +1,14 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <cartList />
 </template>
+
+<script lang="ts">
+import cartList from '@/components/cartList.vue'
+export default {
+  name:"Cart",
+  components:{
+    cartList
+  }
+}
+
+</script>

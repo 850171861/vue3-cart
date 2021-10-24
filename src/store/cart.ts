@@ -32,6 +32,11 @@ const cart = {
             // 购物车数据存储到本地
             window.localStorage.setItem("cartProducts",JSON.stringify(state.cartProducts))
         },
+        // 删除选中删除
+        delCart:(state:stateProps, selectedProduct: productsProps[]) => {
+            state.cartProducts = state.cartProducts.filter(item => !selectedProduct.some(ele=>ele.id===item.id))
+            window.localStorage.setItem("cartProducts",JSON.stringify(state.cartProducts))
+        }
     }
 }
 
